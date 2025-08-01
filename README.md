@@ -5,7 +5,7 @@ What's this for?
 You've spent a lot of time creating a list of places in a Google Map. Helpful! Now you want to change the colors by type of place or add in other sorts of customizations, but... you can't. 
 What you've created is a list of places, not a custom map. You go to your laptop and find "Saved", and the tab for "Maps"... ah, that's what you need. 
 
-You create a Google MyMap, and naturally look for an "Import List" option. No such luck. A search on the internet tells you that you have to export your Saved List using Google Takeout, which will give you a CSV file you can import it into your MyMap. 
+You create a Google MyMap, and naturally look for an "Import List" option. No such luck. A search on the internet tells you that you have to export your Saved List using Google Takeout, which will give you a CSV file that you can import into your MyMap. 
 
 Closer, but no. Your CSV does not include map coordinates, only Google Place URLs. No coordinates hidden in the URL, either.
 
