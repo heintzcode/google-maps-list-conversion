@@ -14,5 +14,7 @@ Here is a script that will help you bridge this step. It automatically queries G
 Now you can upload your list into the MyMap and make all the customizations you were hoping for.
 
 **Requirements**: A terminal that can run `python` with `pandas` and also the `wget` utility.
+
 **Limitations**: This uses `wget` rather than the Google API, and is therefore subject to Google's limits on how many requests you can make from the same IP address. If your list is long, you may find that it errors out. I've tried to make the script fail gracefully so that you can keep the ones it succeeded on and try again with the remainder. The script is slow (waits a few seconds between queries) in order to avoid the error. The script is for occasional personal use, and will not be effective if you are trying to do this at scale.
-**Usage**: > python add_latlon.py <infilename> <outfilename>
+
+**Usage**: `> python add_latlon.py <infilename> <outfilename>`
